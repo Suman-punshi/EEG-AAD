@@ -29,3 +29,15 @@ python data_process.py
 ## Pretrained Models
 1. **model_DANN.pth** – Contains the weights of our best-performing model (with DANN module).
 2. **model_LSTM.pth** – Contains the weights of the model trained without the DANN module.
+
+## Model Architecture
+
+## Model Performance
+
+| Model        | Dataset    | Accuracy (%) | Subject Std |
+|--------------|------------|--------------|-------------|
+| **With DANN**   | Validation | **56.09**      | 0.0380      |
+| **With DANN**   | Test       | **53.65**      | 3.19        |
+| Without DANN | Validation | 49.40        | 0.0371      |
+| Baseline     | Validation | 53.1         | n/a         |
+| Baseline     | Test       | 49.63        | 2.89        |
