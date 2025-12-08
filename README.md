@@ -31,6 +31,8 @@ python data_process.py
 2. **model_LSTM.pth** – Contains the weights of the model trained without the DANN module.
 
 ## Model Architecture
+![](AAD_arch.png)
+
 
 ## Model Performance
 
@@ -41,3 +43,4 @@ python data_process.py
 | Without DANN | Validation | 49.40        | 0.0371      |
 | Baseline     | Validation | 53.1         | n/a         |
 | Baseline     | Test       | 49.63        | 2.89        |
+
