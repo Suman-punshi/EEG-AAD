@@ -21,14 +21,11 @@ python data_process.py
 
 ## Notebooks
 1. **eeg_aad_track1_dann.ipynb** – Trains the model with Domain-Adversarial Neural Network (DANN) module for cross-subject generalization.
-
 2. **eeg_aad_track1_lstm.ipynb** – Trains the model without the DANN module, using only LSTM for temporal dependencies.
-
 3. **eeg-aad-track1-test.ipynb** – Computes subject-wise standard deviation and runs inference on the test set using the trained DANN model.
-
-## Pretrained Models
-1. **model_DANN.pth** – Contains the weights of our best-performing model (with DANN module).
-2. **model_LSTM.pth** – Contains the weights of the model trained without the DANN module.
+4. **extract-activations.ipynb** - Extracts the activation of the model with gradient reversal layer from temporal, spatial and lstm layer**
+5. **sae-training.ipynb** - Trains the Sparse autoencoder model with the activations from temporal, spatial and lstm layer
+6. **sparsefeatureanalysis.ipynb** - Analyze the sparse features from trained sparse autoencoders.
 
 ## Model Architecture
 ![](AAD_arch.png)
