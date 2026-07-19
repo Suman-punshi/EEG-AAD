@@ -1,4 +1,4 @@
-# EEG-Based Auditory Attention Detection (AAD) – ICASSP 2026 Track 1
+# EEG-Based Auditory Attention Detection (AAD)
 
 This repository contains the code, preprocessing scripts, and trained models for EEG-based Auditory Attention Detection (AAD) for the ICASSP 2026 Grand Challenge.
 
