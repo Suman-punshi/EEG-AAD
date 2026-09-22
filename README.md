@@ -32,13 +32,4 @@ python data_process.py
 ![](AAD_arch.png)
 
 
-## Model Performance
-
-| Model        | Dataset    | Accuracy (%) | Subject Std |
-|--------------|------------|--------------|-------------|
-| **With DANN**   | Validation | **56.09**      | 0.0380      |
-| **With DANN**   | Test       | **53.65**      | 3.19        |
-| Without DANN | Validation | 49.40        | 0.0371      |
-| Baseline     | Validation | 53.1         | n/a         |
-| Baseline     | Test       | 49.63        | 2.89        |
 
